@@ -40,9 +40,16 @@
     "@tarojs/taro-swan": "2.0.6",
     "@tarojs/taro-tt": "2.0.6",
     "@tarojs/taro-weapp": "2.0.6",
-    "@tarojs/taro-rn": "2.0.6",
+    "@tarojs/taro-rn": "^2.0.6",
     "nervjs": "^1.5.5",
-    "nerv-devtools": "^1.5.5"
+    "nerv-devtools": "^1.5.5",
+    "@tarojs/components-rn": "^2.0.6",
+    "@tarojs/taro-router-rn": "^2.0.6",
+    "@tarojs/taro-redux-rn": "^2.0.6",
+    "react": "16.8.0",
+    "react-native": "0.59.9",
+    "redux": "^4.0.0",
+    "tslib": "^1.8.0"
   },
   "devDependencies": {
     "@types/react": "^16.4.6",
