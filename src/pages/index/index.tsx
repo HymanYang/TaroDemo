@@ -25,10 +25,19 @@ export default class Index extends Component {
     navigationBarTitleText: '首页'
   }
 
+  onClickBtn = ()=>{
+    Taro.navigateTo({
+      url:'/pages/detail/second'
+    })
+  }
+
   render () {
     return (
       <View className='index'>
-        <Text>Hello world!</Text>
+        <View className='indexBtnC'>
+          <Text className='indexBtn' onClick={this.onClickBtn.bind(this)}>进入下一个页面</Text>
+        </View>
+        <Text>这是以第一个页面 ，欢迎使用taro</Text>
       </View>
     )
   }
